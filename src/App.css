@@ -45,7 +45,7 @@ h1 {
 .resetbutton {
   position: inherit;
   margin-bottom: 5em;
-  background-color: rgba(35, 71, 87, 0.9);
+  background-color: rgb(136 142 140 / 60%);
   width: 100%;
   height: 3em;
   padding: 0.5em;
@@ -59,7 +59,8 @@ h1 {
 }
 
 .resetbutton:hover {
-  background-color: rgb(136 142 140 / 60%);
+  background-color: rgba(35, 71, 87, 0.9);
+
 }
 
 .resetbutton:active {
@@ -80,6 +81,9 @@ h1 {
   background-color: transparent;
 }
 
+.card:hover {
+  background-color: rgba(167, 170, 153, 0.6);
+}
 
 .card-back {
   display: flex;
@@ -100,11 +104,8 @@ h1 {
 }
 
 .card p {
-  color: #f3f2f2;
+  color: #f7f1f1;
   text-align: center;
-}
-.card:hover {
-  background-color: rgba(235, 237, 225, 0.6);
 }
 
 .door-number {
