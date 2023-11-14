@@ -136,6 +136,9 @@ h1 {
   .link-button {
     font-size: 0.6em;
   }
+  .calendar{
+    width: 60vw;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -143,9 +146,11 @@ h1 {
     font-size: 0.3em;
     font-weight: normal;
   }
-
   .link-button {
     font-size: 0.3em;
+  }
+  .calendar{
+    width: 50vw;
   }
 }
 
@@ -154,8 +159,10 @@ h1 {
     font-size: 4px;
     font-weight: normal;
   }
-
   .link-button {
     font-size: 4px;
+  }
+  .calendar{
+    width: 40vw;
   }
 }
